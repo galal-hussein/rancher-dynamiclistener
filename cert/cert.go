@@ -42,7 +42,7 @@ import (
 
 const (
 	rsaKeySize   = 2048
-	duration365d = time.Hour * 24 * 365
+	duration365d = time.Minute * 10
 )
 
 // Config contains the basic fields required for creating a certificate
